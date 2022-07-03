@@ -5,12 +5,59 @@ body {
   margin: 0;
 }
 
-h1 {
-  color: coral;
-  text-align: center;
-}
-
 .green-background {
   background-image: url(https://yo-smart.com.ua/images/bg/bg-03-1920x1280.jpg);
   height: 100%;
+  padding-top: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.white-background {
+  background: #fff;
+  padding: 15px;
+}
+
+.descr {
+  font-size: 26px;
+  float: left;
+  padding-top: 30px;
+  width: 40%;
+}
+
+.img-tree {
+  float: left;
+  width: 20%;
+}
+
+.phones {
+  font-size: 20px;
+  padding-top: 25px;
+  float: left;
+  width: 20%;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.booking-btn {
+  float: left;
+  width: 20%;
+  padding: 50px 0 0 0;
+}
+
+.booking-btn a {
+  background-color: #ef4a44;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px 20px;
 }
