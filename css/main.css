@@ -1,0 +1,16 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: coral;
+  text-align: center;
+}
+
+.green-background {
+  background-image: url(https://yo-smart.com.ua/images/bg/bg-03-1920x1280.jpg);
+  height: 100%;
+}
