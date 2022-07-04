@@ -1,63 +1,68 @@
 html,
 body {
-  height: 100%;
-  padding: 0;
-  margin: 0;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .green-background {
-  background-image: url(https://yo-smart.com.ua/images/bg/bg-03-1920x1280.jpg);
-  height: 100%;
-  padding-top: 15px;
-  padding-left: 50px;
-  padding-right: 50px;
+    background-image: url(https://yo-smart.com.ua/images/bg/bg-03-1920x1280.jpg);
+    height: 100%;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .white-background {
-  background: #fff;
-  padding: 15px;
+    background: #fff;
+    padding: 15px;
 }
 
 .descr {
-  font-size: 26px;
-  float: left;
-  padding-top: 30px;
-  width: 40%;
+    font-size: 26px;
+    float: left;
+    padding-top: 30px;
+    width: 40%;
 }
 
 .img-tree {
-  float: left;
-  width: 20%;
+    float: left;
+    width: 20%;
 }
 
 .phones {
-  font-size: 20px;
-  padding-top: 25px;
-  float: left;
-  width: 20%;
+    font-size: 20px;
+    padding-top: 25px;
+    float: left;
+    width: 20%;
 }
 
 .clearfix {
-  overflow: auto;
+    overflow: auto;
 }
 
 .clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .booking-btn {
-  float: left;
-  width: 20%;
-  padding: 50px 0 0 0;
+    float: left;
+    width: 20%;
+    padding: 50px 0 0 0;
 }
 
 .booking-btn a {
-  background-color: #ef4a44;
-  border-radius: 10px;
-  text-decoration: none;
-  color: #fff;
-  font-size: 18px;
-  padding: 15px 20px;
+    background-color: #ef4a44;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 20px;
+}
+
+.head-menu {
+    height: 50px;
+    border: 1px solid #000;
 }
